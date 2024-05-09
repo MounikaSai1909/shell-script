@@ -3,7 +3,7 @@
 USERID=$(id -u)
 
 VALIDATE(){
-    echo "Exit status: $!"
+    echo "Exit status: $1"
     echo "What are you doing: $2"
 }
 if [ $USERID -ne 0 ]
