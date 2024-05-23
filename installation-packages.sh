@@ -39,3 +39,8 @@ do
           echo "$i not installed......Need to install"
      fi
 done
+
+
+
+dnf install git -y  &>> $LOGFILE
+VALIDATE $?  "installing" 
