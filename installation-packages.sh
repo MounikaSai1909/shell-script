@@ -42,5 +42,5 @@ done
 
 
 
-dnf install git -y  &>> $LOGFILE
-VALIDATE $?  "installing" 
+dnf install docker  -y  &>> $LOGFILE
+VALIDATE $?  "installation is success or failure " 
