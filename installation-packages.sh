@@ -42,5 +42,5 @@ done
 
 
 
-dnf install docker  -y  &>> $LOGFILE
+dnf installl mysql  -y  &>> $LOGFILE
 VALIDATE $?  "installation is success or failure " 
