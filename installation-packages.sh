@@ -42,5 +42,5 @@ done
 
 
 
-dnf installl mysql  -y  &>> $LOGFILE
+dnf install git -y  &>> $LOGFILE
 VALIDATE $?  "installation is success or failure " 
