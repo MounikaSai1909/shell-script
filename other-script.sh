@@ -1,3 +1,4 @@
+#!/bin/bash
 COURSE="Devops from other Script"
 
 echo "variable value from other script: $COURSE"
