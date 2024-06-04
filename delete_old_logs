@@ -9,7 +9,7 @@ N="\e[0m"
 
 if [ -d $SOURCE_DIRECTORY ]
 then 
-    echo -e " $G $SOURCE_DIRECTORY exits $N "
+    echo -e " $G $SOURCE_DIRECTORY $N exits  "
 else    
     echo -e " $R make sure $SOURCE_DIRECTORY exits $N "
     exit 1
