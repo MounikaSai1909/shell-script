@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SOURCE_DIRECTORY=/tmp/app-logs
+SOURCE_DIRECTORY=/tmp/appP-logs
 
 R="\e[31m"
 G="\e[32m"
@@ -11,6 +11,6 @@ if [ -d $SOURCE_DIRECTORY ]
 then 
     echo -e " $G $SOURCE_DIRECTORY $N exits  "
 else    
-    echo -e " $R make sure $SOURCE_DIRECTORY exits $N "
+    echo -e "  make sure $R $SOURCE_DIRECTORY $N exits  "
     exit 1
 fi
