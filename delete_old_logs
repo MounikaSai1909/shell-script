@@ -22,3 +22,5 @@ do
     echo "delete files: $LINE"
     rm -rf $LINE
 done <<< $FILES
+
+#
