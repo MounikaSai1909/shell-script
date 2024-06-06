@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DUSK_USAGE=$(df -hT | grep xfs)
+DiSK_USAGE=$(df -hT | grep xfs)
 DISK_THRESHOLD=6
 
 while IFS= read -r line
